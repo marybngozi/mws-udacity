@@ -164,7 +164,6 @@ class DBHelper {
     }else{
       return (`https://placeimg.com/500/400/people`);
     }
-
   }
 
   /**
