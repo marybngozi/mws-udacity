@@ -1,52 +1,52 @@
-# Local Development API Server
-## Usage
-#### Get Restaurants
-```
-curl "http://localhost:1337/restaurants"
-```
-#### Get Restaurants by id
-````
-curl "http://localhost:1337/restaurants/{3}"
-````
+## RESTAURANT REVIEW APPLICATION
+* Project stage 2 - MWS- Mobile Web Specialist - Nanodegree udacity
+## Description:
+> Application Data and Offline Use
 
-## Architecture
-Local server
-- Node.js
-- Sails.js
+## PROJECT REVIEWED BASED ON THIS SPECIFICATIONS
 
-## Contributors
+## Application Data Source:
 
-- [Brandy Lee Camacho - Technical Project Manager](mailto:brandy.camacho@udacity.com)
-- [David Harris - Web Services Lead](mailto:david.harris@udacity.com)
-- [Omar Albeik - Frontend engineer](mailto:omaralbeik@gmail.com)
+## CRITERIA               &                  MEETS SPECIFICATIONS
 
-## Getting Started
+> The client application should pull restaurant data from the development server, parse the JSON response, and use the information to render the appropriate sections of the application UI.
 
-### Development local API Server
-_Location of server = /server_
-Server depends on [node.js LTS Version: v6.11.2 ](https://nodejs.org/en/download/), [npm](https://www.npmjs.com/get-npm), and [sails.js](http://sailsjs.com/)
-Please make sure you have these installed before proceeding forward.
+## Offline Use:
 
-Great, you are ready to proceed forward; awesome!
+## CRITERIA               &                  MEETS SPECIFICATIONS
 
-Let's start with running commands in your terminal, known as command line interface (CLI)
+> The client application works offline. JSON responses are cached using the IndexedDB API. Any data previously accessed while connected is reachable while offline.
 
-###### Install project dependancies
-```Install project dependancies
-# npm i
-```
-###### Install Sails.js globally
-```Install sails global
-# npm i sails -g
-```
-###### Start the server
-```Start server
-# node server
-```
-### You should now have access to your API server environment
-debug: Environment : development
-debug: Port        : 1337
+## Description:
+> Responsive Design and Accessibility
+
+## Responsive Design:
+
+## CRITERIA               &                  MEETS SPECIFICATIONS
+
+> The application maintains a responsive design on mobile, tablet and desktop viewports.
 
 
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [Waffle Dashboard](https://waffle.io/udacity/mwnd-issues). Even better you can submit a Pull Request with a fix :)
+## Accessibility:
+
+## CRITERIA               &                  MEETS SPECIFICATIONS
+
+> The application retains accessibility features from the Stage 1 project. Images have alternate text, the application uses appropriate focus management for navigation, and semantic elements and ARIA attributes are used correctly.
+
+
+## Description:
+> Performance
+
+## Site Performance:
+
+## CRITERIA               &                  MEETS SPECIFICATIONS
+
+> 	Lighthouse targets for each category exceed:
+
+	Progressive Web App: >90
+	Performance: >70
+	Accessibility: >90
+
+## Url To The Application:
+[Restaurant Review Application](https://marybngozi.github.io/mws-restaurant-review-app-stage-2/)
+## Project By Mary-Blessing Umeh
