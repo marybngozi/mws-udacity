@@ -1,7 +1,7 @@
 importScripts('/js/idb.js');
 importScripts('/js/utility.js');
 
-const v = 35;
+const v = 1;
 const cacheStaticVer = `static-v${v}`;
 const cacheDynamicVer = `dynamic${v}`;
 const url = 'http://localhost:1337/restaurants';
